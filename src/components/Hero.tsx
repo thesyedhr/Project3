@@ -19,7 +19,7 @@ export default function Hero({ onStartFree }: { onStartFree: () => void }) {
         className="absolute bottom-[20%] right-[10%] w-88 h-88 bg-blue-900/15 rounded-full blur-[100px] pointer-events-none"
       />
 
-      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center z-10">
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center z-10 mt-12">
         
         {/* Text Content (7 cols on lg) */}
         <div className="lg:col-span-7 flex flex-col items-center lg:items-start text-center lg:text-left space-y-8">
